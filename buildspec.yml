@@ -3,4 +3,4 @@ version: 0.1
 phases:
   build:
     commands:
-      - aws s3 sync --exact-timestamps --delete . s3://codebuild-hkbn-test
+      - aws s3 sync --exact-timestamps --delete contents s3://codebuild-hkbn-test
